@@ -463,14 +463,14 @@ transform-origin:bottom center
 <br>
 لن يتم عرض مواقيت قديمة أو غير مؤكدة.
 <br>
-عند عودة الإنترنت سيتم تحديث المواقيت تلقائيًا.
+عند عودة الإنترنت سيتم تحديث المواقيت تلقائيا.
 </div>
 
 <section class="prayers">
 
 <div class="prayer" id="card-Fajr">
 <div class="prayer-icon">🌙</div>
-<div class="prayer-name">الفجر</div>
+<div class="prayer-name">الصبح</div>
 <div class="prayer-time empty" id="Fajr">--</div>
 </div>
 
@@ -528,10 +528,10 @@ transform-origin:bottom center
 
 <div class="credit">
 <strong>
-        من إنجاز: منير ابن القاضي
+        من إنجاز : منير ابن القاضي
 </strong>
 <br>
-    خلال الزيارة إلى مدينة أوتريخت  ---  غشت 2026
+    خلال الزيارة لمدينة أوتريخت  --- بتاريخ  غشت 2026
 </div>
 
 </div>
@@ -562,7 +562,7 @@ const MAIN_PRAYERS=[
 ];
 
 const PRAYER_NAMES={
-Fajr:"الفجر",
+Fajr:"الصبح",
 Dhuhr:"الظهر",
 Asr:"العصر",
 Maghrib:"المغرب",
@@ -899,7 +899,7 @@ next.date.toISOString()
 if(next.tomorrow){
 
 nextElement.textContent=
-prayerName+" · "+formattedTime+" · غدًا";
+prayerName+" · "+formattedTime+" · غدا";
 
 }else{
 
@@ -1095,7 +1095,7 @@ document.getElementById("connection");
 element.className="connection online";
 
 element.textContent=
-"  الان التطبيق متصل بالإنترنت";
+"  التطبيق متصل بالإنترنت";
 
 }
 
@@ -1291,7 +1291,7 @@ loadPrayerTimes();
 </html>
 
 <!-- div style="text-align:center; margin:20px 0; color:#bfeaff; font-size:14px;">
- من إنجاز: منير ابن القاضي أثناء الزيارة للمدينة خلال غـــشــت  2026
+ من إنجاز : منير ابن القاضي أثناء الزيارة للمدينة خلال غـــشــت  2026
 </div 
 -->
 
